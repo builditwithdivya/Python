@@ -1,0 +1,6 @@
+print('Hello " world',"Divya", 5)
+print('Hello " world', "Divya", 5, sep=',', end='!')
+print("Hello world")
+print("Divya")
+print("Hello world", end=',')
+print("Divya")
