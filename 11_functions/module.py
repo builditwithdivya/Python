@@ -16,3 +16,7 @@ import mymodule as mm  # Importing the module with an alias
 print(mm.multiply(5, 6))  # This will print 30, the product of 5 and 6
 print(mm.hello())  # This will print "Hello from mymodule!"
 # Importing specific functions from a module
+
+import requests  # Importing the requests module for making HTTP requests
+r = requests.get("https://www.google.com")  # Making a GET request to Google
+print(r.text)  # This will print the status code of the response, e.g., 200 for success
